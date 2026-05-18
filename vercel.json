@@ -3,7 +3,10 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
+  "functions": {
+    "api/*.ts": { "runtime": "edge" }
+  },
   "rewrites": [
-    { "source": "(/.*)", "destination": "/index.html" }
+    { "source": "(/.*)", "destination": "/api/edge" }
   ]
 }
