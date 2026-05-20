@@ -11,6 +11,9 @@
     "lint": "eslint .",
     "format": "prettier --write ."
   },
+  "overrides": {
+    "encoding-sniffer": "1.0.2"
+  },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
     "@hookform/resolvers": "^5.2.2",
